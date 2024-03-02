@@ -1,0 +1,37 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [KB-PCB-R02.PrjPcb]
+   Generated File[KB-PCB-R02.GTO]
+   Generated File[KB-PCB-R02.GTP]
+   Generated File[KB-PCB-R02.GTS]
+   Generated File[KB-PCB-R02.GTL]
+   Generated File[KB-PCB-R02.G1]
+   Generated File[KB-PCB-R02.G2]
+   Generated File[KB-PCB-R02.GBL]
+   Generated File[KB-PCB-R02.GBS]
+   Generated File[KB-PCB-R02.GBP]
+   Generated File[KB-PCB-R02.GBO]
+   Generated File[KB-PCB-R02.GM1]
+   Generated File[KB-PCB-R02.GM2]
+   Generated File[KB-PCB-R02.GM3]
+   Generated File[KB-PCB-R02.GM4]
+   Generated File[KB-PCB-R02.GM5]
+   Generated File[KB-PCB-R02.GM13]
+   Generated File[KB-PCB-R02.GM14]
+   Generated File[KB-PCB-R02.GM15]
+   Generated File[KB-PCB-R02.GM16]
+   Generated File[KB-PCB-R02.GM29]
+   Generated File[KB-PCB-R02.GM30]
+   Generated File[KB-PCB-R02.GPT]
+   Generated File[KB-PCB-R02.GPB]
+   Generated File[KB-PCB-R02.GD1]
+   Generated File[KB-PCB-R02.GG1]
+   Generated File[KB-PCB-R02.GM]
+   Generated File[KB-PCB-R02.EXTREP]
+   Generated File[KB-PCB-R02.REP]
+
+
+Files Generated   : 28
+Documents Printed : 0
+
+Finished Output Generation At 09:39:54 On 02.03.2024

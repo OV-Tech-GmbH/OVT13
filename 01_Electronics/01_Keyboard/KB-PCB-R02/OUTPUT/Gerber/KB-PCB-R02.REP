@@ -1,0 +1,545 @@
+*************************************************************
+FileName = KB-PCB-R02.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Courtyard
+      File : KB-PCB-R02.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : KB-PCB-R02.GM30
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D10
+    D95
+    D96
+    D97
+    D101
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : KB-PCB-R02.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : KB-PCB-R02.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : SIG_TOP
+      File : KB-PCB-R02.GTL
+
+    Adding Layer      : SIG_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : KB-PCB-R02.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : M2: Keyboard mechanical layout
+      File : KB-PCB-R02.GM2
+
+    Adding Layer      : M2: Keyboard mechanical layout
+
+
+Used DCodes :
+    D96
+    D98
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : KB-PCB-R02.GM4
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : KB-PCB-R02.GM14
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : M3: Selective soldering
+      File : KB-PCB-R02.GM3
+
+    Adding Layer      : M3: Selective soldering
+
+
+Used DCodes :
+    D96
+    D100
+*************************************************************
+
+*************************************************************
+Generating : M1: Board outline
+      File : KB-PCB-R02.GM1
+
+    Adding Layer      : M1: Board outline
+
+
+Used DCodes :
+    D96
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : KB-PCB-R02.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : SIG_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : KB-PCB-R02.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : KB-PCB-R02.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : SIG_BOTTOM
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : KB-PCB-R02.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : SIG_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : KB-PCB-R02.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : SIG_BOTTOM
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D18
+    D49
+    D50
+    D51
+    D52
+    D53
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : PWR
+      File : KB-PCB-R02.G2
+
+    Adding Layer      : PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D36
+    D38
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : KB-PCB-R02.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : KB-PCB-R02.GM29
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D10
+    D95
+    D96
+    D97
+    D101
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : KB-PCB-R02.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D95
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : KB-PCB-R02.GPT
+
+    Adding Layer      : SIG_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D36
+    D37
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : KB-PCB-R02.GPB
+
+    Adding Layer      : SIG_BOTTOM
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D18
+    D36
+    D37
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D47
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : SIG_BOTTOM
+      File : KB-PCB-R02.GBL
+
+    Adding Layer      : SIG_BOTTOM
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D18
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : KB-PCB-R02.GD1
+
+    Adding Drill Pair : SIG_TOP-SIG_BOTTOM
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D102
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : KB-PCB-R02.GG1
+
+    Adding Drill Pair : SIG_TOP-SIG_BOTTOM
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : KB-PCB-R02.GM
+
+
+Used DCodes :
+    D104
+*************************************************************
+

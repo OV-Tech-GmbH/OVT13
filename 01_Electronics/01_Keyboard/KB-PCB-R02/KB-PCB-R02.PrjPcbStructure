@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=backlight_RGB.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=backlight_RGB.SchDoc|FileName=backlight_W.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=backlight_RGB.SchDoc|FileName=Input_MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=backlight_RGB.SchDoc|FileName=Keymatrix_switches.SchDoc|SheetNumber=2

@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=00 Block Diagram.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=00 Block Diagram.SchDoc|Designator=U_01 Touch Sensing Keys|SchDesignator=U_01 Touch Sensing Keys|FileName=01 Touch Sensing Keys.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=01 Touch Sensing Keys.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=00 Block Diagram.SchDoc|Designator=U_02 Sensors|SchDesignator=U_02 Sensors|FileName=02 Sensors.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=02 Sensors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,35 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: KB-PCB-R02.GBR   02.03.2024  09:39:50
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                SIG_TOP                                 
+.G1                 GND                                     
+.G2                 PWR                                     
+.GBL                SIG_BOTTOM                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                M1: Board outline                       
+.GM2                M2: Keyboard mechanical layout          
+.GM3                M3: Selective soldering                 
+.GM4                Top Courtyard                           
+.GM5                Top Assembly                            
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM29               Top Assembly                            
+.GM30               Bottom Assembly                         
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

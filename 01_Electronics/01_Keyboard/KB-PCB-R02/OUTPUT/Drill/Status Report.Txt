@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [KB-PCB-R02.PrjPcb]
+   Generated File[KB-PCB-R02.TXT]
+   Generated File[KB-PCB-R02.LDP]
+   Generated File[KB-PCB-R02.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 09:21:10 On 02.03.2024

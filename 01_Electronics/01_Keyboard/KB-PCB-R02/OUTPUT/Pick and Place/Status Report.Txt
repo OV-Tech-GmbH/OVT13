@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [KB-PCB-R02.PrjPcb]
+   Generated File[Pick Place for KB-PCB-R02.txt]
+   Generated File[Pick Place for KB-PCB-R02.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 09:31:58 On 02.03.2024
