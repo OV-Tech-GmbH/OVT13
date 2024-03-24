@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "WCAM-TK-PCB-R02_Raw-altium-import")(type "KiCad")(uri "${KIPRJMOD}/WCAM-TK-PCB-R02_Raw-altium-import.kicad_sym")(options "")(descr ""))
+)

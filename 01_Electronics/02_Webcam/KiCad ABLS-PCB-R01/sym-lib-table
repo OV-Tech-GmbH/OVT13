@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "KiCad ABLS-PCB-R01_Raw-altium-import")(type "KiCad")(uri "${KIPRJMOD}/KiCad ABLS-PCB-R01_Raw-altium-import.kicad_sym")(options "")(descr ""))
+)

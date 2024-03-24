@@ -1,0 +1,2776 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7c4ceb40-8975-429d-96ba-7494f247132e")
+	(paper "A4")
+	(title_block
+		(title "Ambient Light Sensor Module")
+		(date "2024-03-14")
+		(rev "1.0")
+		(company "OV Tech")
+	)
+	(lib_symbols
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:GND_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:VCCA3.3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCCA3.3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"VCCA3.3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCA3.3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCCA3.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_ABLS-MOD-R01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Custom PCB Ambient Light Sensor LGA Footprint"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*ABLS-R01-sensor-Module{space}Footprint*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_ABLS-MOD-R01_1_0"
+				(rectangle
+					(start 25.4 15.24)
+					(end 5.08 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 0)
+					(length 5.08)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 7.62 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 12.7 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_Ambient Light Sensor_VEML3235"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ambient Light Sensors Low Power, High Sensitivity, I2C Ambient Light Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Light{space}Sensor_VEML3235*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Ambient Light Sensor_VEML3235_1_0"
+				(rectangle
+					(start 22.86 17.78)
+					(end 5.08 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 15.24 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 5.08 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 10.16 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 15.24 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_mirrored_CAP_0201_470nF_10V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 10VDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC0603X03L*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_CAP_0201_470nF_10V_1_0"
+				(polyline
+					(pts
+						(xy 2.54 4.128) (xy -2.54 4.128)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.033) (xy -2.54 6.033)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0201"
+					(at 2.54 4.318 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify right bottom)
+					)
+				)
+				(text "X5R"
+					(at -0.762 4.318 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify right bottom)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 4.064)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 4.064)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_RES_0201_2.1k_1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 2.1K OHM 1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0603X03L*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_RES_0201_2.1k_1%_1_0"
+				(polyline
+					(pts
+						(xy 0.635 7.62) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -0.635 7.62) (xy -0.635 2.54) (xy 0.635 2.54) (xy 0.635 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0201"
+					(at 0.762 3.81 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_Testpoint 0.5mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Testpoint 0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP_0.50mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_Testpoint 0.5mm_1_0"
+				(circle
+					(center 0 3.302)
+					(radius 0.953)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KiCad ABLS-PCB-R01_Raw-altium-import:root_3_Testpoint 0.5mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Testpoint 0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP_0.50mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_Testpoint 0.5mm_1_0"
+				(circle
+					(center 0 -3.302)
+					(radius 0.953)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 104.14 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7b8723-c2b0-474e-9ee1-e5d733094ece")
+	)
+	(junction
+		(at 127 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46edf124-ed25-44fb-a76d-f23901055615")
+	)
+	(junction
+		(at 167.64 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5df559-c63d-4cb9-a305-95e500440679")
+	)
+	(junction
+		(at 177.8 98.2472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba96ae1d-fe9b-49e0-a5ea-0ae8045d66d7")
+	)
+	(junction
+		(at 127 105.8672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d68276ed-5954-4c62-85c6-f1c0dbddcf46")
+	)
+	(junction
+		(at 124.46 169.3672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f33f8455-51ba-4b4a-bb58-eda9c06e759b")
+	)
+	(wire
+		(pts
+			(xy 177.8 108.4072) (xy 177.8 98.2472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0065057d-e888-4190-b0e1-27807b1044f4")
+	)
+	(wire
+		(pts
+			(xy 157.48 159.2072) (xy 170.18 159.2072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "05f8db7e-3147-4b4f-bb51-519d77082d8d")
+	)
+	(wire
+		(pts
+			(xy 124.46 164.2872) (xy 127 164.2872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "16f833ba-5c1f-47b6-83bd-ad17e9a2947b")
+	)
+	(wire
+		(pts
+			(xy 124.46 169.3672) (xy 124.46 176.9872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1a172e22-1068-4a6e-9381-003c9e5ce8d4")
+	)
+	(wire
+		(pts
+			(xy 127 105.8672) (xy 129.54 105.8672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "22a79292-e4a6-4d4e-b7f9-8cc741b1d240")
+	)
+	(wire
+		(pts
+			(xy 124.46 159.2072) (xy 127 159.2072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2a4fd27a-ee32-41cc-a531-598bf3a07868")
+	)
+	(wire
+		(pts
+			(xy 167.64 77.9272) (xy 167.64 72.8472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "360d6b88-f0f1-407a-ab4d-5477087df96c")
+	)
+	(wire
+		(pts
+			(xy 157.48 98.2472) (xy 177.8 98.2472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "428bc3a9-0823-44fa-90ea-e39bccc8c3ff")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.7072) (xy 104.14 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "52a5ef74-3283-4117-a5b8-e9b925eb0ecb")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.1672) (xy 167.64 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5a559a11-01af-4657-be0f-8ef3903b94d3")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.8472) (xy 177.8 77.9272)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5af22f7b-d66a-4417-a9fe-b5a773381227")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.1672) (xy 104.14 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5c6097f3-0772-49d4-97bd-5a643adb2894")
+	)
+	(wire
+		(pts
+			(xy 177.8 98.2472) (xy 177.8 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "662dc7da-d6e6-4d68-a60e-a9f8e975048f")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.1672) (xy 167.64 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "74f59d6d-3cee-42c8-bb2d-7af68f34399f")
+	)
+	(wire
+		(pts
+			(xy 157.48 164.2872) (xy 170.18 164.2872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "858a4433-8ac5-4f30-952d-594d6fb37654")
+	)
+	(wire
+		(pts
+			(xy 127 93.1672) (xy 104.14 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "980c2f82-c1ed-4bb5-b0c6-8c3923b40620")
+	)
+	(wire
+		(pts
+			(xy 127 169.3672) (xy 124.46 169.3672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9af15328-7a75-4b57-aade-95c08ce79c77")
+	)
+	(wire
+		(pts
+			(xy 160.02 169.3672) (xy 160.02 176.9872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a234a115-bc71-485a-a0ae-93a1381d5b1c")
+	)
+	(wire
+		(pts
+			(xy 127 108.4072) (xy 127 105.8672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a36bce71-61c0-4a37-9829-aaac1829ab54")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.8672) (xy 104.14 108.4072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a86373bb-8617-414d-9cbe-cc147bd00df5")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.6672) (xy 124.46 159.2072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ac330dfa-15c8-4b1e-9b4d-5c3d33fb1f8d")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.1672) (xy 127 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "af47e79d-2f20-490b-8b5e-398caedc8456")
+	)
+	(wire
+		(pts
+			(xy 167.64 108.4072) (xy 167.64 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d8d05be0-3f7c-4125-a222-e530a72277fb")
+	)
+	(wire
+		(pts
+			(xy 124.46 169.3672) (xy 124.46 164.2872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f32718e9-de5b-4d15-b86c-b4010621f8c2")
+	)
+	(wire
+		(pts
+			(xy 157.48 169.3672) (xy 160.02 169.3672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f5527e6e-40eb-4376-875e-8951896e0164")
+	)
+	(rectangle
+		(start 162.56 24.5872)
+		(end 160.02 39.8272)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 153 153 153 1)
+		)
+		(uuid 17f1921d-6f2a-49a2-8a86-82f5068430b0)
+	)
+	(rectangle
+		(start 205.74 24.5872)
+		(end 203.2 39.8272)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 153 153 153 1)
+		)
+		(uuid 4f0e88ec-1f61-4bd1-825e-d0cfe7c71296)
+	)
+	(rectangle
+		(start 12.7 42.3672)
+		(end 284.48 44.9072)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 153 153 153 1)
+		)
+		(uuid f03d6b7c-615e-4795-8ea1-0ecc4f3934b4)
+	)
+	(text "DNP"
+		(exclude_from_sim no)
+		(at 169.926 86.3092 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0be73b17-ae53-403b-a68a-998ecf597a13")
+	)
+	(text "14.03.2024"
+		(exclude_from_sim no)
+		(at 165.1 32.2072 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "114e6b6f-03f2-4121-a2c1-28944d63bf48")
+	)
+	(text "DNP"
+		(exclude_from_sim no)
+		(at 180.086 86.3092 90)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "416975e0-a1a8-498e-99cb-5dde199309f3")
+	)
+	(text "LGA Footprint"
+		(exclude_from_sim no)
+		(at 162.56 141.4272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "65b75bb1-ea58-4c61-aa45-7dc0663b78f3")
+	)
+	(text "Light Sensor"
+		(exclude_from_sim no)
+		(at 157.48 70.3072 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "a014dad9-3942-429f-9ea6-372706cf5846")
+	)
+	(text "R1.0"
+		(exclude_from_sim no)
+		(at 165.1 24.5872 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a4e281d6-3ccd-4dfa-a0a4-7bbdb40feebe")
+	)
+	(text "Ambient Light Sensor Module"
+		(exclude_from_sim no)
+		(at 15.24 27.178 0)
+		(effects
+			(font
+				(size 6.096 6.096)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d83a47d0-13ee-485b-a2c7-f34be9035e51")
+	)
+	(label "SDA"
+		(at 165.1 164.2872 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e8c1df-2ef4-448a-887b-33a0c0c22c30")
+	)
+	(label "SCL"
+		(at 160.02 98.2472 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba09af01-1356-4095-9fe6-d1bd48e04842")
+	)
+	(label "SCL"
+		(at 165.1 159.2072 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d81c8c32-da32-41c5-9e8e-b34607c7b997")
+	)
+	(label "SDA"
+		(at 160.02 93.1672 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe97bcbe-881a-4cc7-9192-e2de0240d818")
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:GND_BAR")
+		(at 127 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1479e80a-5e8e-4d37-a1fd-2c73ee857bd5")
+		(property "Reference" "#PWR?"
+			(at 127 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 112.2172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eff2edb0-ba92-45cd-a60f-b1a592435df1")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:VCCA3.3_BAR")
+		(at 124.46 156.6672 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1774424b-3282-4d4b-9d88-f9b7af8e6199")
+		(property "Reference" "#PWR?"
+			(at 124.46 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA3.3"
+			(at 124.46 152.8572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f46bbc1d-6aa7-4651-a416-173a3f0857d9")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:GND_BAR")
+		(at 160.02 176.9872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "195372b2-e430-4320-ab0c-b8121276f5af")
+		(property "Reference" "#PWR?"
+			(at 160.02 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 180.7972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "33de7eb1-8b4d-434e-ad4e-9a97b5d6dfe8")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_Testpoint 0.5mm")
+		(at 127 105.8672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19e0e3d7-17b1-4748-baa5-395cd92f1650")
+		(property "Reference" "TP2"
+			(at 121.92 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint 0.5mm"
+			(at 126.048 101.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "QV_ElectroMech.PcbLib:TP_0.50mm"
+			(at 127 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2620700c-abd9-4de6-8322-4bfc55ec6e0f")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_ABLS-MOD-R01")
+		(at 127 171.9072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e19a079-1cee-4513-b03a-cfadb7cb60ad")
+		(property "Reference" "U2"
+			(at 132.08 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ambient Light Sensor Module"
+			(at 132.08 174.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "QV_ConMod.PcbLib:ABLS-R01-sensor-Module Footprint"
+			(at 127 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff7251b2-2381-4591-818e-a0f656281d81")
+		)
+		(pin "2"
+			(uuid "6f130511-4ca6-4c78-8e7b-97c6696c5375")
+		)
+		(pin "6"
+			(uuid "1566cc46-0321-4609-9db9-314145e29391")
+		)
+		(pin "3"
+			(uuid "b4a3dabc-ff71-4fb9-89cf-f8ee2a508dbf")
+		)
+		(pin "1"
+			(uuid "d0a594e9-2948-4cbf-84ce-a80f9f628e4c")
+		)
+		(pin "5"
+			(uuid "b7ccff11-fbe3-48e7-b07e-2bec0d068fdb")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_RES_0201_2.1k_1%")
+		(at 177.8 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b2b594f-c6dd-4856-bc12-cf38fb58807f")
+		(property "Reference" "R2"
+			(at 178.689 82.2452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.1k 1%"
+			(at 178.689 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "QV_Res.pcblib:RESC0603X03L"
+			(at 177.8 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" "Panasonic"
+			(at 176.911 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1 PRT. NR." "ERJ-1GNF2101C"
+			(at 176.911 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" "Yageo"
+			(at 176.911 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2 PRT. NR." "RC0201FR-072K1L"
+			(at 176.911 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ad31db9-edb5-434b-b4e8-33fce548ef06")
+		)
+		(pin "1"
+			(uuid "73b838dc-1ad4-4287-a1af-c62cc641fef6")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:VCCA3.3_BAR")
+		(at 167.64 72.8472 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51bb46a3-3295-4207-a2d5-8b9a8d4c2d7c")
+		(property "Reference" "#PWR?"
+			(at 167.64 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA3.3"
+			(at 167.64 69.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fd71a269-3862-4b09-92a0-a6681ee16931")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_3_Testpoint 0.5mm")
+		(at 167.64 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c203b76-f961-4b28-8bd0-492ea6e560ab")
+		(property "Reference" "TP3"
+			(at 170.18 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint 0.5mm"
+			(at 166.688 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "QV_ElectroMech.PcbLib:TP_0.50mm"
+			(at 167.64 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "633c9785-e1d3-4a6f-b2f0-5d1e90e51c60")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:VCCA3.3_BAR")
+		(at 104.14 88.0872 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67ddf307-b494-4fcb-8ba5-1201ff29d3ec")
+		(property "Reference" "#PWR?"
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA3.3"
+			(at 104.14 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c6280357-1254-4b60-9d9c-0b7fffad55bb")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_mirrored_CAP_0201_470nF_10V")
+		(at 104.14 105.8672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92cec6c0-bf52-4e80-9d26-2e9c6e93edee")
+		(property "Reference" "C1"
+			(at 106.934 101.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470nF 10V"
+			(at 106.934 103.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "QV_Cap.pcblib:CAPC0603X03L"
+			(at 104.14 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" "Taiyo Yuden"
+			(at 101.346 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1 PRT. NR." "LMK063BBJ474KPLF"
+			(at 101.346 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" "TDK"
+			(at 101.346 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2 PRT. NR." "C0603X5R1A474M030BC"
+			(at 101.346 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c069cd6-b6f3-4300-8528-deda84f624be")
+		)
+		(pin "2"
+			(uuid "dc1c17a9-b02a-4a9f-ad94-1f74618663a1")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:VCCA3.3_BAR")
+		(at 177.8 72.8472 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9c03ff5-0be0-40b8-8cf8-e6b7c1278316")
+		(property "Reference" "#PWR?"
+			(at 177.8 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA3.3"
+			(at 177.8 69.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "85c7d23a-1576-4edb-95ad-d04c2ea03172")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:GND_BAR")
+		(at 104.14 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aad1801d-528c-4308-8cd8-4edd0d3d3c88")
+		(property "Reference" "#PWR?"
+			(at 104.14 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 112.2172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b662e5af-fcce-4357-9cf0-84f646516249")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_Testpoint 0.5mm")
+		(at 127 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ec9740-2948-4347-9c41-9d0e86c800ee")
+		(property "Reference" "TP1"
+			(at 121.92 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint 0.5mm"
+			(at 126.048 88.9122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "QV_ElectroMech.PcbLib:TP_0.50mm"
+			(at 127 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "886b0e3d-0aee-46de-aad9-3cceb5777a0b")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_3_Testpoint 0.5mm")
+		(at 177.8 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caf4dbfc-8177-42e8-b5b7-3c1bf95951cf")
+		(property "Reference" "TP4"
+			(at 180.34 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint 0.5mm"
+			(at 176.848 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "QV_ElectroMech.PcbLib:TP_0.50mm"
+			(at 177.8 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "aab7e926-8e31-4cbc-b7fa-e952f611d60a")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_1_RES_0201_2.1k_1%")
+		(at 167.64 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3b00920-7883-4f0d-8b08-686db6850d76")
+		(property "Reference" "R1"
+			(at 168.529 82.2452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.1k 1%"
+			(at 168.529 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "QV_Res.pcblib:RESC0603X03L"
+			(at 167.64 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" "Panasonic"
+			(at 166.751 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1 PRT. NR." "ERJ-1GNF2101C"
+			(at 166.751 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" "Yageo"
+			(at 166.751 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2 PRT. NR." "RC0201FR-072K1L"
+			(at 166.751 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e5151c-bc8e-4334-be6c-b9c10ff02830")
+		)
+		(pin "2"
+			(uuid "a6d6f13c-9443-4ed3-9a02-9395e37c249b")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:root_0_Ambient Light Sensor_VEML3235")
+		(at 129.54 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9b76755-2311-4d27-8e9a-559dbeec16a1")
+		(property "Reference" "U1"
+			(at 134.62 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VEML3235"
+			(at 134.62 110.4392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "QV_Active.PcbLib:Light Sensor_VEML3235"
+			(at 129.54 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" "Vishay Semiconductors"
+			(at 128.27 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1 PRT. NR." "VEML3235"
+			(at 128.27 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e196904-8e5f-4fa5-92c8-be21bd8edcf6")
+		)
+		(pin "6"
+			(uuid "02d7f725-6cd4-48a9-8026-08fd1bfeb19e")
+		)
+		(pin "2"
+			(uuid "b7ace437-331c-45e8-baec-0b1a647a2250")
+		)
+		(pin "5"
+			(uuid "bec632df-7574-4c31-8555-c6cc0097155c")
+		)
+		(pin "3"
+			(uuid "65ecbe06-9602-4cdd-b6d3-bd95e8aea49c")
+		)
+		(pin "4"
+			(uuid "680f9c12-b11e-4ce8-bf38-7d889c5c3946")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad ABLS-PCB-R01_Raw-altium-import:GND_BAR")
+		(at 124.46 176.9872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f411bc94-ca62-4094-ac57-86442694072b")
+		(property "Reference" "#PWR?"
+			(at 124.46 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 180.7972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c464cc95-9eb3-48df-9431-d8d6364bb401")
+		)
+		(instances
+			(project "KiCad ABLS-PCB-R01_Raw"
+				(path "/7c4ceb40-8975-429d-96ba-7494f247132e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
