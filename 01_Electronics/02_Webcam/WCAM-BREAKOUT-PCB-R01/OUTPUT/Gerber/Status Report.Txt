@@ -1,0 +1,25 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [WCAM-BREAKOUT-PCB.PrjPcb]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GTO]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GTP]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GTS]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GTL]
+   Generated File[WCAM-BREAKOUT-PCB-R01.G1]
+   Generated File[WCAM-BREAKOUT-PCB-R01.G2]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GBL]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GBS]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GBP]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GBO]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GM1]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GD1]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GG1]
+   Generated File[WCAM-BREAKOUT-PCB-R01.GM]
+   Generated File[WCAM-BREAKOUT-PCB-R01.EXTREP]
+   Generated File[WCAM-BREAKOUT-PCB-R01.REP]
+
+
+Files Generated   : 16
+Documents Printed : 0
+
+Finished Output Generation At 13:33:24 On 24.03.2024

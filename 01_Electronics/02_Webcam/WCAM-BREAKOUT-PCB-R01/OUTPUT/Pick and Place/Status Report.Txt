@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [WCAM-BREAKOUT-PCB.PrjPcb]
+   Generated File[Pick Place for WCAM-BREAKOUT-PCB-R01.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:35:54 On 24.03.2024

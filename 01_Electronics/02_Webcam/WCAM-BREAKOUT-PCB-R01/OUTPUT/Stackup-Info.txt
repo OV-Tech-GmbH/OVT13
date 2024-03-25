@@ -1,0 +1,4 @@
+Der Lagenaufbau bezieht sich auf eine Gesamtstärke der PCB von 1.6mm. Von JLCPB gibt es Standard-Stackups z.B. für 4 Lagen:
+https://jlcpcb.com/impedance
+
+Gewählt wird die zweite Variante mit dem Namen JLC04161H-7628 Stackup. Ein Screenshot liegt auf dieser Ordnerebene.
