@@ -1,0 +1,54 @@
+MANUAL FOR KEYBOARD FIRMWARE DEVELOPMENT AND FLASHING
+
+The firmware is based on QMK (Quantum Mechanical Keyboard)
+
+#1 How to flash the compiled file onto the KB-MCU (RP2040):
+	* Precompiled file: helios_kb_rev1_default_20240326.uf2
+	* Recompiled (and changed) see: #2
+1. Connect pin 7 of J_IN1 to GND
+2. Connect the keyboard with your computer over USB (ie. solder the ends of an USB cable to J_IN1, an USB-drive should appear in the hardware drive list)
+3. Drag and drop the .uf2 into the USB-drive
+4. Disconnect pin 7 of J_IN1 to GND
+5. Repower the keyboard (i.e. disconnect the USB connection)
+6. Connected over USB the keyboard will appear as a USB device and will provide input to the computer if buttons are being pressed.
+7. Enjoy using the hardware!
+
+#2 How to compile the keyboard project:
+
+Info: The project was developed and tested under Windows 11.
+
+1. Download and install the QMK-Firmware (external links)
+	* Worked on version: https://github.com/qmk/qmk_distro_msys/releases/tag/1.7.2,
+    * Newest version (untested) https://github.com/qmk/qmk_distro_msys/releases/latest
+
+2. Follow these steps https://docs.qmk.fm/#/newbs_getting_started
+3. Create a new project with the steps from https://docs.qmk.fm/#/newbs_building_firmware?id=create-a-new-keymap
+	* Name the keyboard project: helios_kb_rev1
+	* Copy the contents of helios_kb_rev1_20240326.zip into the project folder and replace existing files
+4. To apply underlaying changes outside the project folder replace the folders quantum and platforms from the quantum.zip and platforms.zip
+
+5. Edit the the files in the project folder (For detailed information see the official QMK docs)
+
+6. Compile the project with QMK MSYS and the following command: "qmk compile -kb helios_kb_rev1 -km default"
+
+7. To flash the compiled file see #1
+
+
+26.03.2024
+OV Tech GmbH
+External links provided are third party 
+
+#3 Keyboard-bindings for lighting up the LEDS (Assuming full component placement regarding the keyboard-BOM):
+(Flash the provided .uf2 file onto the MCU first under #1)
+* F2: Toggle W-LEDs
+* F3: Increase WLED intensity
+* F4: Decrease WLED intensity
+* F6: Toggle RGB-LEDs
+* F7: Increase RGB-LED value intensity (HS V)
+* F8: Decrease RGB-LED value intensity (HS V)
+* F9: Increase RGB-LED saturation intensity (H S V)
+* F10: Decrease RGB-LED hue intensity (H S V)
+* F11: Increase RGB-LED saturation intensity (H SV)
+* F12: Decrease RGB-LED saturation intensity (H SV)
+
+(There are multiple animation modes available https://docs.qmk.fm/#/feature_rgblight)
