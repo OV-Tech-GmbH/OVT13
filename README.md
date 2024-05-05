@@ -7,8 +7,7 @@ Open-source thin-and-light 13" laptop
    - Webcam PCB
 2. Mechanical
    - Keyboard
-
-4. Software
+3. Software
    - Keyboard firmware and source files
 
 ## Details of content
@@ -32,9 +31,10 @@ The Mid1-layer includes a continuous ground plane to provide good electrical cha
 On the bottom layer consist of the routing of the keyswitch matrix, the microcontroller and the remaining circuitry.
 ![OV_Tech_KB-PCB-R02_BottomLayer](https://github.com/ThommyL34/OVT13/assets/140168168/3546ab77-9cfc-49f5-a72f-db4143f34e5b)
 
+2. Mechanical
+   - Keyboard: -
 
-
-
-
+3. Software
+   - Keyboard PCB: The firmware of the keyboard was created using the framework QMK. The framework provides all basic keyboard functions such as matrix scanning, USB communication, lightning and much more. Therefore, only one module of the keyboard project has been created for the specific design of the keyboard. Minor modifications were made to the QMK core to compile the firmware for the RP2040 microcontroller. A standard English keyboard layout (QWERTY) was used. Details of the code project can be found in the subfolder for the keyboard software.
 
 
