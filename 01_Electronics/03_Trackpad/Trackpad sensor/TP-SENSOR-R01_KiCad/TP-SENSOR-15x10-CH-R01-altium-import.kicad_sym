@@ -1,0 +1,2700 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "EMI-GND_BAR"
+		(power)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EMI-GND"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"EMI-GND\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "EMI-GND_BAR_0_0"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 0) hide
+				(name "EMI-GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GND_BAR"
+		(power)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"GND\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GND_BAR_0_0"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 0) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "root_0_CAP_TRACKPAD_RX_ROW"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single trackpad sensor element within a square of 8.5x8.5mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*CAP_TRACKPAD_RX_ROW*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "root_0_CAP_TRACKPAD_RX_ROW_1_0"
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 5.08 2.54) (xy 2.54 0) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -5.08 -2.54) (xy -2.54 0) (xy -5.08 2.54) (xy -5.08 0)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -5.08 -2.54) (xy -2.54 0) (xy -5.08 2.54) (xy -5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 -2.54) (xy 5.08 0) (xy 5.08 2.54) (xy 2.54 0)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 7.62 7.62)
+				(end -7.62 -7.62)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "RX_ROW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "root_0_CAP_TRACKPAD_TX_CLM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single trackpad sensor element within a square of 8.5x8.5mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*CAP_TRACKPAD_TX_CLM*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "root_0_CAP_TRACKPAD_TX_CLM_1_0"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy 2.54 -5.08) (xy 0 -2.54) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -2.54 -5.08) (xy 0 -5.08) (xy 2.54 -5.08) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -2.54 5.08) (xy 0 2.54) (xy 2.54 5.08) (xy 0 5.08)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -2.54 5.08) (xy 0 2.54) (xy 2.54 5.08) (xy 0 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 7.62)
+				(end -7.62 -7.62)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "TX_CLM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "root_0_FFC Connector_33pol_FH35C-33S-0.3SHW"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FFC Connector 33pol 0.3mm Pitch Double Sided Contacts"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*FFC{space}33pol{space}0.3mm{space}FH35C-33S-0.3SHW*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "root_0_FFC Connector_33pol_FH35C-33S-0.3SHW_1_0"
+			(polyline
+				(pts
+					(xy 14.605 77.47) (xy 14.478 20.828)
+				)
+				(stroke
+					(width 0.254)
+					(type dash_dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.462 72.644) (xy 10.922 70.104) (xy 10.922 26.924) (xy 13.462 24.384) (xy 13.462 21.844)
+					(xy 9.652 21.844) (xy 9.652 75.184) (xy 13.462 75.184) (xy 13.462 72.644) (xy 13.462 72.644)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 11.938 28.448)
+				(end 11.303 27.813)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 29.718)
+				(end 11.303 29.083)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 30.988)
+				(end 11.303 30.353)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 32.258)
+				(end 11.303 31.623)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 33.528)
+				(end 11.303 32.893)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 34.798)
+				(end 11.303 34.163)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 36.068)
+				(end 11.303 35.433)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 37.338)
+				(end 11.303 36.703)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 38.608)
+				(end 11.303 37.973)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 39.878)
+				(end 11.303 39.243)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 41.148)
+				(end 11.303 40.513)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 42.418)
+				(end 11.303 41.783)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 43.688)
+				(end 11.303 43.053)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 44.958)
+				(end 11.303 44.323)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 46.228)
+				(end 11.303 45.593)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 47.498)
+				(end 11.303 46.863)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 48.768)
+				(end 11.303 48.133)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 50.038)
+				(end 11.303 49.403)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 51.308)
+				(end 11.303 50.673)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 52.578)
+				(end 11.303 51.943)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 53.848)
+				(end 11.303 53.213)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 55.118)
+				(end 11.303 54.483)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 56.388)
+				(end 11.303 55.753)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 57.658)
+				(end 11.303 57.023)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 58.928)
+				(end 11.303 58.293)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 60.198)
+				(end 11.303 59.563)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 61.468)
+				(end 11.303 60.833)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 62.738)
+				(end 11.303 62.103)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 64.008)
+				(end 11.303 63.373)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 65.278)
+				(end 11.303 64.643)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 66.548)
+				(end 11.303 65.913)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 67.818)
+				(end 11.303 67.183)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.938 69.088)
+				(end 11.303 68.453)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.081 69.088)
+				(end 12.319 27.686)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 28.448)
+				(end 13.335 27.813)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 29.718)
+				(end 13.335 29.083)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 30.988)
+				(end 13.335 30.353)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 32.258)
+				(end 13.335 31.623)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 33.528)
+				(end 13.335 32.893)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 34.798)
+				(end 13.335 34.163)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 36.068)
+				(end 13.335 35.433)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 37.338)
+				(end 13.335 36.703)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 38.608)
+				(end 13.335 37.973)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 39.878)
+				(end 13.335 39.243)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 41.148)
+				(end 13.335 40.513)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 42.418)
+				(end 13.335 41.783)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 43.688)
+				(end 13.335 43.053)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 44.958)
+				(end 13.335 44.323)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 46.228)
+				(end 13.335 45.593)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 47.498)
+				(end 13.335 46.863)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 48.768)
+				(end 13.335 48.133)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 50.038)
+				(end 13.335 49.403)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 51.308)
+				(end 13.335 50.673)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 52.578)
+				(end 13.335 51.943)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 53.848)
+				(end 13.335 53.213)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 55.118)
+				(end 13.335 54.483)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 56.388)
+				(end 13.335 55.753)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 57.658)
+				(end 13.335 57.023)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 58.928)
+				(end 13.335 58.293)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 60.198)
+				(end 13.335 59.563)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 61.468)
+				(end 13.335 60.833)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 62.738)
+				(end 13.335 62.103)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 64.008)
+				(end 13.335 63.373)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 65.278)
+				(end 13.335 64.643)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 66.548)
+				(end 13.335 65.913)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 67.818)
+				(end 13.335 67.183)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.97 69.088)
+				(end 13.335 68.453)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 102 102 102 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 25.4 91.44)
+				(end 0 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 152 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "Dual Side Contact"
+				(at 17.526 57.15 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(text "FFC Connector 0.3mm"
+				(at 6.35 63.5 900)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify right bottom)
+				)
+			)
+			(text "FH35C-33S-0.3SHW"
+				(at 8.89 57.15 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(pin passive line
+				(at 30.48 88.9 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 66.04 180)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 63.5 180)
+				(length 5.08)
+				(name "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 60.96 180)
+				(length 5.08)
+				(name "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 58.42 180)
+				(length 5.08)
+				(name "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 55.88 180)
+				(length 5.08)
+				(name "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 53.34 180)
+				(length 5.08)
+				(name "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 50.8 180)
+				(length 5.08)
+				(name "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 48.26 180)
+				(length 5.08)
+				(name "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 45.72 180)
+				(length 5.08)
+				(name "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 43.18 180)
+				(length 5.08)
+				(name "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 86.36 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 40.64 180)
+				(length 5.08)
+				(name "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 38.1 180)
+				(length 5.08)
+				(name "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 35.56 180)
+				(length 5.08)
+				(name "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 33.02 180)
+				(length 5.08)
+				(name "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 30.48 180)
+				(length 5.08)
+				(name "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 27.94 180)
+				(length 5.08)
+				(name "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 25.4 180)
+				(length 5.08)
+				(name "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 22.86 180)
+				(length 5.08)
+				(name "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 20.32 180)
+				(length 5.08)
+				(name "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 17.78 180)
+				(length 5.08)
+				(name "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 83.82 180)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 15.24 180)
+				(length 5.08)
+				(name "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 12.7 180)
+				(length 5.08)
+				(name "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 10.16 180)
+				(length 5.08)
+				(name "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 7.62 180)
+				(length 5.08)
+				(name "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 81.28 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 78.74 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 76.2 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 73.66 180)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 71.12 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 68.58 180)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 2.54 180)
+				(length 5.08)
+				(name "MT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "root_0_SW_SNAPDOME_RCG05200N_5.3mm"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RCG-Series Tactile Domes 5.3mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SNAPDOME_RCG05200N*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "root_0_SW_SNAPDOME_RCG05200N_5.3mm_1_0"
+			(arc
+				(start -5.1674 -1.2719)
+				(mid -4.8261 -0.0185)
+				(end -5.1491 1.2398)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.1617 1.2709)
+				(mid -2.3835 2.3884)
+				(end -1.2711 5.1687)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.6594 -1.2719)
+				(mid -4.3181 -0.0185)
+				(end -4.6411 1.2398)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2719 4.6594)
+				(mid -0.0185 4.3181)
+				(end 1.2398 4.6411)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2719 5.1674)
+				(mid -0.0185 4.8261)
+				(end 1.2398 5.1491)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2702 -5.1224)
+				(mid -2.372 -2.3998)
+				(end -5.0831 -1.27)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.876)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.2705 5.1443)
+				(mid 2.3643 2.4076)
+				(end 5.0831 1.27)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.2719 -5.1674)
+				(mid 0.0185 -4.8261)
+				(end -1.2398 -5.1491)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.2719 -4.6594)
+				(mid 0.0185 -4.3181)
+				(end -1.2398 -4.6411)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.6594 1.2719)
+				(mid 4.3181 0.0185)
+				(end 4.6411 -1.2398)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.1379 -1.2704)
+				(mid 2.4053 -2.3666)
+				(end 1.27 -5.0831)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.1674 1.2719)
+				(mid 4.8261 0.0185)
+				(end 5.1491 -1.2398)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.667)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 180)
+				(length 0.254)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "root_0_Titleblock_01_OpenSource"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "root_0_Titleblock_01_OpenSource_1_0"
+			(rectangle
+				(start 1 12)
+				(end -20 6)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 1 18)
+				(end -20 12)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 1 24)
+				(end -20 18)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 49 6)
+				(end -20 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 23 210 117 1)
+				)
+			)
+			(rectangle
+				(start 49 18)
+				(end 1 12)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 49 24)
+				(end 1 18)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 70 12)
+				(end 1 6)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 70 18)
+				(end 49 12)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 70 24)
+				(end 49 18)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 70 30)
+				(end -20 24)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 85.5 6)
+				(end 49 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 85.5 6)
+				(end 49 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 100 6)
+				(end 85.5 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(rectangle
+				(start 100 30)
+				(end -20 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 100 30)
+				(end 70 6)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(text ""
+				(at 6.5 18.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "= 'Author:' + Author"
+				(at -19.5 15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "= 'Checked by:  ' + Reviewer"
+				(at 1.5 15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "= 'Date:' + CurrentDate"
+				(at -19.5 21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "= 'File:' + DocumentName"
+				(at 1.5 20 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "= 'License:' + License"
+				(at -19 9 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left)
+				)
+			)
+			(text "= 'Project: ' + ProjectName"
+				(at 13.5 9 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(text "= 'Size: ' + DocSize"
+				(at 93 3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "= 'Title:' + Title"
+				(at -19.5 24.5 0)
+				(effects
+					(font
+						(size 2.286 2.286)
+						(bold yes)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "='Revision:  ' + Revision"
+				(at 49.5 21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "='Sheet: ' + SheetNumber  + '/' + SheetTotal"
+				(at 69.5 3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "='Status:  ' + DevStatus"
+				(at 49.5 15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "OV Tech GmbH - Open Visions Technology"
+				(at -19 1 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+						(bold yes)
+					)
+					(justify left bottom)
+				)
+			)
+		)
+	)
+)

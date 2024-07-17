@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: TP-EVALBOARD-R01.GBR   27.06.2024  20:15:14
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Polyimide Top                           
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Polyimide Bottom                        
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board outline                           
+.GM2                Stiffener position                      
+.GD1                Drill Drawing                           
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

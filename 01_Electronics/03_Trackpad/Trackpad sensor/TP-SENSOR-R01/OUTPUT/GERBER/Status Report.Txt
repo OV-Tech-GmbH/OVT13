@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [TP-SENSOR-R01.PrjPcb]
+   Generated File[TP-SENSOR-15x10-CH-R01.TXT]
+   Generated File[TP-SENSOR-15x10-CH-R01.LDP]
+   Generated File[TP-SENSOR-15x10-CH-R01.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:34:19 On 13.07.2024

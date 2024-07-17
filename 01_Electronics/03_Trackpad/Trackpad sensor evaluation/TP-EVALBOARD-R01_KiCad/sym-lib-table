@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "TP-EVALBOARD-altium-import")(type "KiCad")(uri "${KIPRJMOD}/TP-EVALBOARD-altium-import.kicad_sym")(options "")(descr ""))
+)
