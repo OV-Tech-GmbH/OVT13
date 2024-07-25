@@ -1,0 +1,260 @@
+*************************************************************
+FileName = TP-SENSOR-15x10-CH-R01.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Assembly
+      File : TP-SENSOR-15x10-CH-R01.GM30
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D28
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : TP-SENSOR-15x10-CH-R01.GM29
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : TP-SENSOR-15x10-CH-R01.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : TP-SENSOR-15x10-CH-R01.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : TP-SENSOR-15x10-CH-R01.GM14
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : TP-SENSOR-15x10-CH-R01.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Matrix outline
+      File : TP-SENSOR-15x10-CH-R01.GM2
+
+    Adding Layer      : Matrix outline
+
+
+Used DCodes :
+    D26
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Board outline
+      File : TP-SENSOR-15x10-CH-R01.GM1
+
+    Adding Layer      : Board outline
+
+
+Used DCodes :
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : TP-SENSOR-15x10-CH-R01.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : TP-SENSOR-15x10-CH-R01.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : TP-SENSOR-15x10-CH-R01.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D13
+    D14
+    D16
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : TP-SENSOR-15x10-CH-R01.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : TP-SENSOR-15x10-CH-R01.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D20
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : TP-SENSOR-15x10-CH-R01.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : TP-SENSOR-15x10-CH-R01.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : TP-SENSOR-15x10-CH-R01.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : TP-SENSOR-15x10-CH-R01.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : TP-SENSOR-15x10-CH-R01.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : TP-SENSOR-15x10-CH-R01.GM
+
+
+Used DCodes :
+    D33
+*************************************************************
+

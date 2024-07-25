@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [TP-EVALBOARD-R01.PrjPcb]
+   Generated File[TP-EVALBOARD-R01.TXT]
+   Generated File[TP-EVALBOARD-R01.LDP]
+   Generated File[TP-EVALBOARD-R01.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:15:24 On 27.06.2024

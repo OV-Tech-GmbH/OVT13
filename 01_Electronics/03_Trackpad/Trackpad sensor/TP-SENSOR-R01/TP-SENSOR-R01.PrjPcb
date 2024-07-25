@@ -1,0 +1,1355 @@
+﻿[Design]
+Version=1.0
+HierarchyMode=0
+ChannelRoomNamingStyle=0
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$RoomName
+ChannelRoomLevelSeperator=_
+OpenOutputs=1
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=1
+AppendSheetNumberToLocalNets=0
+NetlistSinglePinNets=0
+DefaultConfiguration=Sources
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=0
+PowerPortNamesTakePriority=0
+AutoSheetNumbering=1
+AutoCrossReferences=1
+NewIndexingOfSheetSymbols=1
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
+IsVirtualBomDocumentRemoved=0
+OutputPath=
+LogFolderPath=
+ManagedProjectGUID=
+IncludeDesignInRelease=0
+CrossRefSheetStyle=0
+CrossRefLocationStyle=0
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=PCB\TP-SENSOR-15x10-CH-R01.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QLBJREFO
+
+[Document2]
+DocumentPath=SCHEMATIC\TP-SENSOR-R01.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KHNCYARS
+
+[Parameter1]
+Name=Revision
+Value=Rev0.1
+
+[Parameter2]
+Name=Project
+Value=Helios
+
+[Parameter3]
+Name=PCBTitle
+Value=Trackpad Sensor PCB 15x10
+
+[Parameter4]
+Name=License
+Value=CERN-OHL-S-2.0
+
+[Parameter5]
+Name=Customer
+Value=/
+
+[Parameter6]
+Name=ConfidialityLevel
+Value=Open-source
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=EDIF
+OutputName3=EDIF for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=MultiWire
+OutputName7=MultiWire
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Pcad
+OutputName10=Pcad for PCB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=ProtelNetlist
+OutputName14=Protel
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Harness Layout Drawing Print
+OutputName2=Harness Layout Drawing Prints
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Harness Wiring Diagram Print
+OutputName3=Harness Wiring Diagram Prints
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB 3D Print
+OutputName4=PCB 3D Print
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCB 3D Video
+OutputName5=PCB 3D Video
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCB Print
+OutputName6=PCB Prints
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=PCBDrawing
+OutputName7=Draftsman
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=PCBLIB Print
+OutputName8=PCBLIB Prints
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=PDF3D
+OutputName9=PDF3D
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=PDF3D MBA
+OutputName10=PDF3D MBA
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Report Print
+OutputName11=Report Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Schematic Print
+OutputName12=Schematic Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=SimView Print
+OutputName13=SimView Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ODB
+OutputName6=ODB++ Files
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=F:\Development\Laptop Entwicklung\Shared\OV Tech GmbH\OV Tech GmbH - Cloud\02_Projects\00_Helios\01_Elektronik\01_Module\04_Trackpad\TP-SENSOR-R01\PCB\TP-SENSOR-15x10-CH-R01.PcbDoc
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+OutputType10=Plane
+OutputName10=Power-Plane Prints
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Gerber
+OutputName12=Gerber Files
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=QLBJREFO|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1,16908301~1,16908302~1,16908303~1,16908304~1,16908317~1,16908318~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=True|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName= |PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=F:\Development\Laptop Entwicklung\Shared\OV Tech GmbH\OV Tech GmbH - Cloud\02_Projects\00_Helios\01_Elektronik\01_Module\04_Trackpad\TP-SENSOR-R01\PCB\TP-SENSOR-15x10-CH-R01.PcbDoc
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=BOM_ReportCompare
+OutputName2=BOM Compare
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Export Comments
+OutputName4=Export Comments
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Project History
+OutputName5=Project History
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Script
+OutputName7=Script Output
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_Violations
+OutputName1=BOM Checks Report
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Component states check
+OutputName2=Server's components states check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Configuration compliance
+OutputName3=Environment configuration compliance check
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=Design Rules Check
+OutputName4=Design Rules Check
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Differences Report
+OutputName5=Differences Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Electrical Rules Check
+OutputName6=Electrical Rules Check
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Footprint Comparison Report
+OutputName7=Footprint Comparison Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportSTEP
+OutputName5=Export STEP
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Brother MFC-J5320DW Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+Type118=1
+Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=0
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=2
+Type13=2
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
+Type24=1
+Type25=2
+Type26=0
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=0
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
+Type50=2
+Type51=0
+Type52=0
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=2
+Type60=0
+Type61=0
+Type62=0
+Type63=0
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=0
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=0
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=0
+AlternateItemFail=3
+Type122=2
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWN
+L3=NWEENEEEENEWNEEWN
+L4=NNENNNWEENNWNENWN
+L5=NNNNNNNNNNNNNNNNN
+L6=NNENNNNEENNWNENWN
+L7=NNEWNNWEENNWNENWN
+L8=NWEENEENEEENNEENN
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWN
+L11=NNENNNNEEENWNENWN
+L12=WWWWNWWNWWWNWWWNN
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WNNNNNNNWNNNWWWWN
+
+[Annotate]
+SortOrder=3
+SortLocation=0
+ReplaceSubparts=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=1
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+FullReplace=1
+UpdateDesignatorLock=1
+UpdatePartIDLock=1
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=1
+UpdateCurrentModels=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+
+[NetInfos]
+Net1=NetName=NetC1_RX_OUT|NetColor=$006E6EFF
+Net2=NetName=NetC1_TX_OUT|NetColor=$006EFF6E
+Net3=NetName=NetC10_RX_OUT|NetColor=$006E6EFF
+Net4=NetName=NetC10_TX_OUT|NetColor=$006EFF6E
+Net5=NetName=NetC100_RX_OUT|NetColor=$006E6EFF
+Net6=NetName=NetC100_TX_OUT|NetColor=$006EFF6E
+Net7=NetName=NetC101_RX_OUT|NetColor=$006E6EFF
+Net8=NetName=NetC101_TX_OUT|NetColor=$006EFF6E
+Net9=NetName=NetC102_RX_OUT|NetColor=$006E6EFF
+Net10=NetName=NetC102_TX_OUT|NetColor=$006EFF6E
+Net11=NetName=NetC103_RX_OUT|NetColor=$006E6EFF
+Net12=NetName=NetC103_TX_OUT|NetColor=$006EFF6E
+Net13=NetName=NetC104_RX_OUT|NetColor=$006E6EFF
+Net14=NetName=NetC104_TX_OUT|NetColor=$006EFF6E
+Net15=NetName=NetC105_TX_OUT|NetColor=$006EFF6E
+Net16=NetName=NetC106_RX_OUT|NetColor=$006E6EFF
+Net17=NetName=NetC106_TX_OUT|NetColor=$006EFF6E
+Net18=NetName=NetC107_RX_OUT|NetColor=$006E6EFF
+Net19=NetName=NetC107_TX_OUT|NetColor=$006EFF6E
+Net20=NetName=NetC108_RX_OUT|NetColor=$006E6EFF
+Net21=NetName=NetC108_TX_OUT|NetColor=$006EFF6E
+Net22=NetName=NetC109_RX_OUT|NetColor=$006E6EFF
+Net23=NetName=NetC109_TX_OUT|NetColor=$006EFF6E
+Net24=NetName=NetC11_RX_OUT|NetColor=$006E6EFF
+Net25=NetName=NetC11_TX_OUT|NetColor=$006EFF6E
+Net26=NetName=NetC110_RX_OUT|NetColor=$006E6EFF
+Net27=NetName=NetC110_TX_OUT|NetColor=$006EFF6E
+Net28=NetName=NetC111_RX_OUT|NetColor=$006E6EFF
+Net29=NetName=NetC111_TX_OUT|NetColor=$006EFF6E
+Net30=NetName=NetC112_RX_OUT|NetColor=$006E6EFF
+Net31=NetName=NetC112_TX_OUT|NetColor=$006EFF6E
+Net32=NetName=NetC113_RX_OUT|NetColor=$006E6EFF
+Net33=NetName=NetC113_TX_OUT|NetColor=$006EFF6E
+Net34=NetName=NetC114_RX_OUT|NetColor=$006E6EFF
+Net35=NetName=NetC114_TX_OUT|NetColor=$006EFF6E
+Net36=NetName=NetC115_RX_OUT|NetColor=$006E6EFF
+Net37=NetName=NetC115_TX_OUT|NetColor=$006EFF6E
+Net38=NetName=NetC116_RX_OUT|NetColor=$006E6EFF
+Net39=NetName=NetC116_TX_OUT|NetColor=$006EFF6E
+Net40=NetName=NetC117_RX_OUT|NetColor=$006E6EFF
+Net41=NetName=NetC117_TX_OUT|NetColor=$006EFF6E
+Net42=NetName=NetC118_RX_OUT|NetColor=$006E6EFF
+Net43=NetName=NetC118_TX_OUT|NetColor=$006EFF6E
+Net44=NetName=NetC119_RX_OUT|NetColor=$006E6EFF
+Net45=NetName=NetC119_TX_OUT|NetColor=$006EFF6E
+Net46=NetName=NetC12_RX_OUT|NetColor=$006E6EFF
+Net47=NetName=NetC12_TX_OUT|NetColor=$006EFF6E
+Net48=NetName=NetC120_RX_OUT|NetColor=$006E6EFF
+Net49=NetName=NetC120_TX_OUT|NetColor=$006EFF6E
+Net50=NetName=NetC121_RX_OUT|NetColor=$006E6EFF
+Net51=NetName=NetC122_RX_OUT|NetColor=$006E6EFF
+Net52=NetName=NetC123_RX_OUT|NetColor=$006E6EFF
+Net53=NetName=NetC124_RX_OUT|NetColor=$006E6EFF
+Net54=NetName=NetC125_RX_OUT|NetColor=$006E6EFF
+Net55=NetName=NetC126_RX_OUT|NetColor=$006E6EFF
+Net56=NetName=NetC127_RX_OUT|NetColor=$006E6EFF
+Net57=NetName=NetC128_RX_OUT|NetColor=$006E6EFF
+Net58=NetName=NetC129_RX_OUT|NetColor=$006E6EFF
+Net59=NetName=NetC13_RX_OUT|NetColor=$006E6EFF
+Net60=NetName=NetC13_TX_OUT|NetColor=$006EFF6E
+Net61=NetName=NetC130_RX_OUT|NetColor=$006E6EFF
+Net62=NetName=NetC131_RX_OUT|NetColor=$006E6EFF
+Net63=NetName=NetC132_RX_OUT|NetColor=$006E6EFF
+Net64=NetName=NetC133_RX_OUT|NetColor=$006E6EFF
+Net65=NetName=NetC134_RX_OUT|NetColor=$006E6EFF
+Net66=NetName=NetC135_RX_OUT|NetColor=$006E6EFF
+Net67=NetName=NetC14_RX_OUT|NetColor=$006E6EFF
+Net68=NetName=NetC14_TX_OUT|NetColor=$006EFF6E
+Net69=NetName=NetC15_TX_OUT|NetColor=$006EFF6E
+Net70=NetName=NetC16_RX_OUT|NetColor=$006E6EFF
+Net71=NetName=NetC16_TX_OUT|NetColor=$006EFF6E
+Net72=NetName=NetC17_RX_OUT|NetColor=$006E6EFF
+Net73=NetName=NetC17_TX_OUT|NetColor=$006EFF6E
+Net74=NetName=NetC18_RX_OUT|NetColor=$006E6EFF
+Net75=NetName=NetC18_TX_OUT|NetColor=$006EFF6E
+Net76=NetName=NetC19_RX_OUT|NetColor=$006E6EFF
+Net77=NetName=NetC19_TX_OUT|NetColor=$006EFF6E
+Net78=NetName=NetC2_RX_OUT|NetColor=$006E6EFF
+Net79=NetName=NetC2_TX_OUT|NetColor=$006EFF6E
+Net80=NetName=NetC20_RX_OUT|NetColor=$006E6EFF
+Net81=NetName=NetC20_TX_OUT|NetColor=$006EFF6E
+Net82=NetName=NetC21_RX_OUT|NetColor=$006E6EFF
+Net83=NetName=NetC21_TX_OUT|NetColor=$006EFF6E
+Net84=NetName=NetC22_RX_OUT|NetColor=$006E6EFF
+Net85=NetName=NetC22_TX_OUT|NetColor=$006EFF6E
+Net86=NetName=NetC23_RX_OUT|NetColor=$006E6EFF
+Net87=NetName=NetC23_TX_OUT|NetColor=$006EFF6E
+Net88=NetName=NetC24_RX_OUT|NetColor=$006E6EFF
+Net89=NetName=NetC24_TX_OUT|NetColor=$006EFF6E
+Net90=NetName=NetC25_RX_OUT|NetColor=$006E6EFF
+Net91=NetName=NetC25_TX_OUT|NetColor=$006EFF6E
+Net92=NetName=NetC26_RX_OUT|NetColor=$006E6EFF
+Net93=NetName=NetC26_TX_OUT|NetColor=$006EFF6E
+Net94=NetName=NetC27_RX_OUT|NetColor=$006E6EFF
+Net95=NetName=NetC27_TX_OUT|NetColor=$006EFF6E
+Net96=NetName=NetC28_RX_OUT|NetColor=$006E6EFF
+Net97=NetName=NetC28_TX_OUT|NetColor=$006EFF6E
+Net98=NetName=NetC29_RX_OUT|NetColor=$006E6EFF
+Net99=NetName=NetC29_TX_OUT|NetColor=$006EFF6E
+Net100=NetName=NetC3_RX_OUT|NetColor=$006E6EFF
+Net101=NetName=NetC3_TX_OUT|NetColor=$006EFF6E
+Net102=NetName=NetC30_TX_OUT|NetColor=$006EFF6E
+Net103=NetName=NetC31_RX_OUT|NetColor=$006E6EFF
+Net104=NetName=NetC31_TX_OUT|NetColor=$006EFF6E
+Net105=NetName=NetC32_RX_OUT|NetColor=$006E6EFF
+Net106=NetName=NetC32_TX_OUT|NetColor=$006EFF6E
+Net107=NetName=NetC33_RX_OUT|NetColor=$006E6EFF
+Net108=NetName=NetC33_TX_OUT|NetColor=$006EFF6E
+Net109=NetName=NetC34_RX_OUT|NetColor=$006E6EFF
+Net110=NetName=NetC34_TX_OUT|NetColor=$006EFF6E
+Net111=NetName=NetC35_RX_OUT|NetColor=$006E6EFF
+Net112=NetName=NetC35_TX_OUT|NetColor=$006EFF6E
+Net113=NetName=NetC36_RX_OUT|NetColor=$006E6EFF
+Net114=NetName=NetC36_TX_OUT|NetColor=$006EFF6E
+Net115=NetName=NetC37_RX_OUT|NetColor=$006E6EFF
+Net116=NetName=NetC37_TX_OUT|NetColor=$006EFF6E
+Net117=NetName=NetC38_RX_OUT|NetColor=$006E6EFF
+Net118=NetName=NetC38_TX_OUT|NetColor=$006EFF6E
+Net119=NetName=NetC39_RX_OUT|NetColor=$006E6EFF
+Net120=NetName=NetC39_TX_OUT|NetColor=$006EFF6E
+Net121=NetName=NetC4_RX_OUT|NetColor=$006E6EFF
+Net122=NetName=NetC4_TX_OUT|NetColor=$006EFF6E
+Net123=NetName=NetC40_RX_OUT|NetColor=$006E6EFF
+Net124=NetName=NetC40_TX_OUT|NetColor=$006EFF6E
+Net125=NetName=NetC41_RX_OUT|NetColor=$006E6EFF
+Net126=NetName=NetC41_TX_OUT|NetColor=$006EFF6E
+Net127=NetName=NetC42_RX_OUT|NetColor=$006E6EFF
+Net128=NetName=NetC42_TX_OUT|NetColor=$006EFF6E
+Net129=NetName=NetC43_RX_OUT|NetColor=$006E6EFF
+Net130=NetName=NetC43_TX_OUT|NetColor=$006EFF6E
+Net131=NetName=NetC44_RX_OUT|NetColor=$006E6EFF
+Net132=NetName=NetC44_TX_OUT|NetColor=$006EFF6E
+Net133=NetName=NetC45_TX_OUT|NetColor=$006EFF6E
+Net134=NetName=NetC46_RX_OUT|NetColor=$006E6EFF
+Net135=NetName=NetC46_TX_OUT|NetColor=$006EFF6E
+Net136=NetName=NetC47_RX_OUT|NetColor=$006E6EFF
+Net137=NetName=NetC47_TX_OUT|NetColor=$006EFF6E
+Net138=NetName=NetC48_RX_OUT|NetColor=$006E6EFF
+Net139=NetName=NetC48_TX_OUT|NetColor=$006EFF6E
+Net140=NetName=NetC49_RX_OUT|NetColor=$006E6EFF
+Net141=NetName=NetC49_TX_OUT|NetColor=$006EFF6E
+Net142=NetName=NetC5_RX_OUT|NetColor=$006E6EFF
+Net143=NetName=NetC5_TX_OUT|NetColor=$006EFF6E
+Net144=NetName=NetC50_RX_OUT|NetColor=$006E6EFF
+Net145=NetName=NetC50_TX_OUT|NetColor=$006EFF6E
+Net146=NetName=NetC51_RX_OUT|NetColor=$006E6EFF
+Net147=NetName=NetC51_TX_OUT|NetColor=$006EFF6E
+Net148=NetName=NetC52_RX_OUT|NetColor=$006E6EFF
+Net149=NetName=NetC52_TX_OUT|NetColor=$006EFF6E
+Net150=NetName=NetC53_RX_OUT|NetColor=$006E6EFF
+Net151=NetName=NetC53_TX_OUT|NetColor=$006EFF6E
+Net152=NetName=NetC54_RX_OUT|NetColor=$006E6EFF
+Net153=NetName=NetC54_TX_OUT|NetColor=$006EFF6E
+Net154=NetName=NetC55_RX_OUT|NetColor=$006E6EFF
+Net155=NetName=NetC55_TX_OUT|NetColor=$006EFF6E
+Net156=NetName=NetC56_RX_OUT|NetColor=$006E6EFF
+Net157=NetName=NetC56_TX_OUT|NetColor=$006EFF6E
+Net158=NetName=NetC57_RX_OUT|NetColor=$006E6EFF
+Net159=NetName=NetC57_TX_OUT|NetColor=$006EFF6E
+Net160=NetName=NetC58_RX_OUT|NetColor=$006E6EFF
+Net161=NetName=NetC58_TX_OUT|NetColor=$006EFF6E
+Net162=NetName=NetC59_RX_OUT|NetColor=$006E6EFF
+Net163=NetName=NetC59_TX_OUT|NetColor=$006EFF6E
+Net164=NetName=NetC6_RX_OUT|NetColor=$006E6EFF
+Net165=NetName=NetC6_TX_OUT|NetColor=$006EFF6E
+Net166=NetName=NetC60_TX_OUT|NetColor=$006EFF6E
+Net167=NetName=NetC61_RX_OUT|NetColor=$006E6EFF
+Net168=NetName=NetC61_TX_OUT|NetColor=$006EFF6E
+Net169=NetName=NetC62_RX_OUT|NetColor=$006E6EFF
+Net170=NetName=NetC62_TX_OUT|NetColor=$006EFF6E
+Net171=NetName=NetC63_RX_OUT|NetColor=$006E6EFF
+Net172=NetName=NetC63_TX_OUT|NetColor=$006EFF6E
+Net173=NetName=NetC64_RX_OUT|NetColor=$006E6EFF
+Net174=NetName=NetC64_TX_OUT|NetColor=$006EFF6E
+Net175=NetName=NetC65_RX_OUT|NetColor=$006E6EFF
+Net176=NetName=NetC65_TX_OUT|NetColor=$006EFF6E
+Net177=NetName=NetC66_RX_OUT|NetColor=$006E6EFF
+Net178=NetName=NetC66_TX_OUT|NetColor=$006EFF6E
+Net179=NetName=NetC67_RX_OUT|NetColor=$006E6EFF
+Net180=NetName=NetC67_TX_OUT|NetColor=$006EFF6E
+Net181=NetName=NetC68_RX_OUT|NetColor=$006E6EFF
+Net182=NetName=NetC68_TX_OUT|NetColor=$006EFF6E
+Net183=NetName=NetC69_RX_OUT|NetColor=$006E6EFF
+Net184=NetName=NetC69_TX_OUT|NetColor=$006EFF6E
+Net185=NetName=NetC7_RX_OUT|NetColor=$006E6EFF
+Net186=NetName=NetC7_TX_OUT|NetColor=$006EFF6E
+Net187=NetName=NetC70_RX_OUT|NetColor=$006E6EFF
+Net188=NetName=NetC70_TX_OUT|NetColor=$006EFF6E
+Net189=NetName=NetC71_RX_OUT|NetColor=$006E6EFF
+Net190=NetName=NetC71_TX_OUT|NetColor=$006EFF6E
+Net191=NetName=NetC72_RX_OUT|NetColor=$006E6EFF
+Net192=NetName=NetC72_TX_OUT|NetColor=$006EFF6E
+Net193=NetName=NetC73_RX_OUT|NetColor=$006E6EFF
+Net194=NetName=NetC73_TX_OUT|NetColor=$006EFF6E
+Net195=NetName=NetC74_RX_OUT|NetColor=$006E6EFF
+Net196=NetName=NetC74_TX_OUT|NetColor=$006EFF6E
+Net197=NetName=NetC75_TX_OUT|NetColor=$006EFF6E
+Net198=NetName=NetC76_RX_OUT|NetColor=$006E6EFF
+Net199=NetName=NetC76_TX_OUT|NetColor=$006EFF6E
+Net200=NetName=NetC77_RX_OUT|NetColor=$006E6EFF
+Net201=NetName=NetC77_TX_OUT|NetColor=$006EFF6E
+Net202=NetName=NetC78_RX_OUT|NetColor=$006E6EFF
+Net203=NetName=NetC78_TX_OUT|NetColor=$006EFF6E
+Net204=NetName=NetC79_RX_OUT|NetColor=$006E6EFF
+Net205=NetName=NetC79_TX_OUT|NetColor=$006EFF6E
+Net206=NetName=NetC8_RX_OUT|NetColor=$006E6EFF
+Net207=NetName=NetC8_TX_OUT|NetColor=$006EFF6E
+Net208=NetName=NetC80_RX_OUT|NetColor=$006E6EFF
+Net209=NetName=NetC80_TX_OUT|NetColor=$006EFF6E
+Net210=NetName=NetC81_RX_OUT|NetColor=$006E6EFF
+Net211=NetName=NetC81_TX_OUT|NetColor=$006EFF6E
+Net212=NetName=NetC82_RX_OUT|NetColor=$006E6EFF
+Net213=NetName=NetC82_TX_OUT|NetColor=$006EFF6E
+Net214=NetName=NetC83_RX_OUT|NetColor=$006E6EFF
+Net215=NetName=NetC83_TX_OUT|NetColor=$006EFF6E
+Net216=NetName=NetC84_RX_OUT|NetColor=$006E6EFF
+Net217=NetName=NetC84_TX_OUT|NetColor=$006EFF6E
+Net218=NetName=NetC85_RX_OUT|NetColor=$006E6EFF
+Net219=NetName=NetC85_TX_OUT|NetColor=$006EFF6E
+Net220=NetName=NetC86_RX_OUT|NetColor=$006E6EFF
+Net221=NetName=NetC86_TX_OUT|NetColor=$006EFF6E
+Net222=NetName=NetC87_RX_OUT|NetColor=$006E6EFF
+Net223=NetName=NetC87_TX_OUT|NetColor=$006EFF6E
+Net224=NetName=NetC88_RX_OUT|NetColor=$006E6EFF
+Net225=NetName=NetC88_TX_OUT|NetColor=$006EFF6E
+Net226=NetName=NetC89_RX_OUT|NetColor=$006E6EFF
+Net227=NetName=NetC89_TX_OUT|NetColor=$006EFF6E
+Net228=NetName=NetC9_RX_OUT|NetColor=$006E6EFF
+Net229=NetName=NetC9_TX_OUT|NetColor=$006EFF6E
+Net230=NetName=NetC90_TX_OUT|NetColor=$006EFF6E
+Net231=NetName=NetC91_RX_OUT|NetColor=$006E6EFF
+Net232=NetName=NetC91_TX_OUT|NetColor=$006EFF6E
+Net233=NetName=NetC92_RX_OUT|NetColor=$006E6EFF
+Net234=NetName=NetC92_TX_OUT|NetColor=$006EFF6E
+Net235=NetName=NetC93_RX_OUT|NetColor=$006E6EFF
+Net236=NetName=NetC93_TX_OUT|NetColor=$006EFF6E
+Net237=NetName=NetC94_RX_OUT|NetColor=$006E6EFF
+Net238=NetName=NetC94_TX_OUT|NetColor=$006EFF6E
+Net239=NetName=NetC95_RX_OUT|NetColor=$006E6EFF
+Net240=NetName=NetC95_TX_OUT|NetColor=$006EFF6E
+Net241=NetName=NetC96_RX_OUT|NetColor=$006E6EFF
+Net242=NetName=NetC96_TX_OUT|NetColor=$006EFF6E
+Net243=NetName=NetC97_RX_OUT|NetColor=$006E6EFF
+Net244=NetName=NetC97_TX_OUT|NetColor=$006EFF6E
+Net245=NetName=NetC98_RX_OUT|NetColor=$006E6EFF
+Net246=NetName=NetC98_TX_OUT|NetColor=$006EFF6E
+Net247=NetName=NetC99_RX_OUT|NetColor=$006E6EFF
+Net248=NetName=NetC99_TX_OUT|NetColor=$006EFF6E
+Net249=NetName=TP-SENS-RX0|NetColor=$006E6EFF
+Net250=NetName=TP-SENS-RX1|NetColor=$006E6EFF
+Net251=NetName=TP-SENS-RX2|NetColor=$006E6EFF
+Net252=NetName=TP-SENS-RX3|NetColor=$006E6EFF
+Net253=NetName=TP-SENS-RX4|NetColor=$006E6EFF
+Net254=NetName=TP-SENS-RX5|NetColor=$006E6EFF
+Net255=NetName=TP-SENS-RX6|NetColor=$006E6EFF
+Net256=NetName=TP-SENS-RX7|NetColor=$006E6EFF
+Net257=NetName=TP-SENS-RX8|NetColor=$006E6EFF
+Net258=NetName=TP-SENS-TX0|NetColor=$006EFF6E
+Net259=NetName=TP-SENS-TX1|NetColor=$006EFF6E
+Net260=NetName=TP-SENS-TX10|NetColor=$006EFF6E
+Net261=NetName=TP-SENS-TX11|NetColor=$006EFF6E
+Net262=NetName=TP-SENS-TX12|NetColor=$006EFF6E
+Net263=NetName=TP-SENS-TX13|NetColor=$006EFF6E
+Net264=NetName=TP-SENS-TX14|NetColor=$006EFF6E
+Net265=NetName=TP-SENS-TX2|NetColor=$006EFF6E
+Net266=NetName=TP-SENS-TX3|NetColor=$006EFF6E
+Net267=NetName=TP-SENS-TX4|NetColor=$006EFF6E
+Net268=NetName=TP-SENS-TX5|NetColor=$006EFF6E
+Net269=NetName=TP-SENS-TX6|NetColor=$006EFF6E
+Net270=NetName=TP-SENS-TX7|NetColor=$006EFF6E
+Net271=NetName=TP-SENS-TX8|NetColor=$006EFF6E
+Net272=NetName=TP-SENS-TX9|NetColor=$006EFF6E
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+

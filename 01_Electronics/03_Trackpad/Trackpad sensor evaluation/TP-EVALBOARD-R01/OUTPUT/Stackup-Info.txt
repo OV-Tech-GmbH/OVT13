@@ -1,0 +1,8 @@
+Custom options based on ordering @ JLCPCB:
+
+* 2 Layer flex PCB 0.2mm thickness
+* Stiffener (See layer "stiffener position")
+	PCB Region: FR4, 1.0mm Bottom side
+	Connector tongue: Polyimide 0.1mm Bottom side
+* 1 Oz Gold thickness
+* 1 Oz Copper thickness

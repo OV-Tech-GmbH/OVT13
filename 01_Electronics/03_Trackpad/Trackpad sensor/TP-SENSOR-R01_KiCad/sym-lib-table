@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "TP-SENSOR-15x10-CH-R01-altium-import")(type "KiCad")(uri "${KIPRJMOD}/TP-SENSOR-15x10-CH-R01-altium-import.kicad_sym")(options "")(descr ""))
+)
