@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "KiCad_FMC-USB-PHY-BOARD-R02-altium-import")(type "KiCad")(uri "${KIPRJMOD}/KiCad_FMC-USB-PHY-BOARD-R02-altium-import.kicad_sym")(options "")(descr ""))
+)
