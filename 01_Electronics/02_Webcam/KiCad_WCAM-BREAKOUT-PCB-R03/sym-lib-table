@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "KiCad_WCAM-BREAKOUT-PCB-R03-altium-import")(type "KiCad")(uri "${KIPRJMOD}/KiCad_WCAM-BREAKOUT-PCB-R03-altium-import.kicad_sym")(options "")(descr ""))
+)
